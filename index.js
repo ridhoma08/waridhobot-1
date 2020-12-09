@@ -14,8 +14,8 @@ const info = require("./lib/info.js");
 				  
 //
 const BotName = 'RIDHO BOT 🤖'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/ridho_setiawan02'; // Nama Instagramlu cok
-const whatsapplu = '0812-8909-6745'; // Nomor whatsapplu cok
+const instagramlu = 'https://instagram.com/ridhoma_08?igshid=1uradkcagsmau'; // Nama Instagramlu cok
+const whatsapplu = '08998839509'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
 const grupch1 = 'https://chat.whatsapp.com/LX1nAiZUuB5FmTCMwe0o4g'; // OFFICIAL GRUP LU 1
 const grupch2 = 'https://chat.whatsapp.com/Kjv5IWzNIeCBSaH4lJKX8v'; // OFFICIAL GRUP LU 2
@@ -64,11 +64,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridho_setiawan02`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridhoma_08`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridho_setiawan02`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridhoma_08`)
 })
 
 conn.on('message-new', async(m) =>
@@ -908,6 +908,6 @@ if (text.includes(".alay")){
 	})
 }
 
-//Tolonglah bro jangan di ubah ubah RIDHO SETIAWAN
+//Tolonglah bro jangan di ubah ubah RIDHO M A
 
 })
